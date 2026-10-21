@@ -36,8 +36,9 @@ public class Main {
 
 		// affichage des livraisons
 		for (Livraison liv : livraisons) {
-			liv.calculerMontant();
+			liv.afficherRecapitulatif();
 		}
+		
 
 		// montant total
 		double montantTotal = 0;
